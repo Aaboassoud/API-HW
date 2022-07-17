@@ -36,17 +36,19 @@ export default function Home() {
                 <td>{`${e.id}`}</td>
                 <td>{`${e.game_title}`}</td>
                 <td>{`${e.rating}`}</td>
+                <td><Button className='btn btn-outline-success mr-2'>Update</Button><Button className='btn btn-outline-danger '>Delete</Button></td>
                 </tr>))}
         <tr>
           <td>1</td>
           <td>Mark</td>
           <td>Ottso</td>
+          <td><Button className='btn btn-outline-success mr-2'>Update</Button><Button className='btn btn-outline-danger '>Delete</Button></td>
         </tr>
         <tr>
           <td>2</td>
           <td>Jacob</td>
           <td>Thornton</td>
-          <td>@fat</td>
+          <td><Button className='btn btn-outline-success mr-2'>Update</Button><Button className='btn btn-outline-danger '>Delete</Button></td>
         </tr>
       </tbody>
     </Table>
